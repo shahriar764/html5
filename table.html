@@ -12,9 +12,32 @@
             border:1px solid black;
             padding:5px 10px;
         }
+        
+        
     </style>
+    <link rel="stylesheet" href="style/nav.css">
+    
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">video</a></li>
+                <li><a href="from.html">from</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">video</a></li>
+                        <li><a href="from.html">from</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="blogs.html">Blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="blogs.html">Blog</a></li>
+            </ul>
+
+        </nav>
+    </header>
     <h1>HTML Table</h1>
     <table>
         <thead>
@@ -65,7 +88,8 @@
         <li> Table footer: tfoot</li>
         <li> Table row: tr</li>
         <li> table data or table cell: td</li>
-        <li> table head:th</li>
+        <li> table header cell:th</li>
+        <li>caption</li>
     </ul>
 
 </body>
